@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="led_driver_fsm_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="led_driver_fsm_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2135000000001fs"></ZoomEndTime>
+      <Cursor1Time time="1000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="166"></NameColumnWidth>
+      <ValueColumnWidth column_width="157"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/led_driver_fsm_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_driver_fsm_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_driver_fsm_tb/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_driver_fsm_tb/led_cube" type="array">
+      <obj_property name="ElementShortName">led_cube[3:0][15:0][23:0]</obj_property>
+      <obj_property name="ObjectShortName">led_cube[3:0][15:0][23:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_driver_fsm_tb/data_out" type="logic">
+      <obj_property name="ElementShortName">data_out</obj_property>
+      <obj_property name="ObjectShortName">data_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_driver_fsm_tb/data_clk" type="logic">
+      <obj_property name="ElementShortName">data_clk</obj_property>
+      <obj_property name="ObjectShortName">data_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_driver_fsm_tb/data_clr" type="logic">
+      <obj_property name="ElementShortName">data_clr</obj_property>
+      <obj_property name="ObjectShortName">data_clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_driver_fsm_tb/sr_wr" type="logic">
+      <obj_property name="ElementShortName">sr_wr</obj_property>
+      <obj_property name="ObjectShortName">sr_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_driver_fsm_tb/pwm_red_out" type="logic">
+      <obj_property name="ElementShortName">pwm_red_out</obj_property>
+      <obj_property name="ObjectShortName">pwm_red_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_driver_fsm_tb/pwm_green_out" type="logic">
+      <obj_property name="ElementShortName">pwm_green_out</obj_property>
+      <obj_property name="ObjectShortName">pwm_green_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_driver_fsm_tb/pwm_blue_out" type="logic">
+      <obj_property name="ElementShortName">pwm_blue_out</obj_property>
+      <obj_property name="ObjectShortName">pwm_blue_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_driver_fsm_tb/z_level" type="array">
+      <obj_property name="ElementShortName">z_level[1:0]</obj_property>
+      <obj_property name="ObjectShortName">z_level[1:0]</obj_property>
+   </wvobject>
+</wave_config>
